@@ -232,7 +232,7 @@ export function helmetSettingsFromMetadata(metadata = {}, options = {}) {
     },
     {
       property: 'og:image',
-      content: '',
+      content: metadata.og?.imageUrl,
     },
     {
       property: 'og:image:secure_url',
