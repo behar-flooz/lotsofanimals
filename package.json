@@ -21,9 +21,10 @@
     "**/*.scss": "yarn prettier --write"
   },
   "dependencies": {
-    "@apollo/client": "^3.6.1",
+   
+    "@apollo/client": "^3.5",
     "date-fns": "^2.25.0",
-    "@types/react": "^18.0.8",
+    "@types/react": "^17.0.39",
     "dotenv": "^10.0.0",
     "fuse.js": "^6.4.6",
     "graphql": "^16.0.1",
